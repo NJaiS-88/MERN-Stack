@@ -1,0 +1,63 @@
+.box{
+    display: flex;
+    background-color: white;
+    max-width: 40vw;
+    padding: 0.5vw;
+    border-radius: 0.4vw;
+    transition: background-color 0.5s ease;
+    margin: 2vw;
+}
+.box:hover{
+    background-color: rgb(241, 255, 250);
+    cursor: pointer;
+    box-shadow: 0vw 0.1vw 0.1vw rgb(226, 226, 226);
+}
+.infobox{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-right: 0.8vw;
+    padding-top: 1.8vw;
+}
+*{
+    font-size: 1vw;
+}
+.imgbox{
+    position: relative;
+}
+.timebox{
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    background-color: rgba(0, 0, 0, 0.401);
+    padding: 0.1vw;
+    padding-left:0.4vw;
+    padding-right: 0.4vw;
+    border-radius: 0.3vw;
+    color: white;
+    font-weight: bold;
+}
+
+.imgx{
+    width: 15vw;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-radius: 0.4vw;
+}
+.titlebox{
+    padding-left: 2vw;
+    font-size: 2vw;
+    max-width:100%;
+    overflow: hidden;          /* hide overflowing text */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.creatorbox{
+    padding-left: 2vw;
+    padding-top: 2vw;
+    color: gray;
+    font-size: 1.4vw;
+    max-width:100%;
+    overflow: hidden;          /* hide overflowing text */
+    text-overflow: ellipsis;
+}
